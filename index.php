@@ -53,7 +53,7 @@
        <span style="margin-left: 5px"><?php echo $pubDate; ?></span>
      </div>
      <div class="post-content">
-       <?php echo implode(' ', array_slice(explode(' ', $description), 0, 500)) . "..."; ?> <a href="<?php echo $link; ?>">Read more</a>
+       <?php echo implode(' ', array_slice(explode(' ', $description), 0, 500)) . "..."; ?> <a href="#" onClick="javascript:window.open('<?php echo $link; ?>', '_blank','toolbar=no,width=600,height=600');">Read more</a>
      </div>
    </div>
 
