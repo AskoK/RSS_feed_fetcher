@@ -49,11 +49,11 @@
   ?>
    <div class="post">
      <div class="post-head">
-         <img src="<?php echo $image ?>"><h2><a href="#" class="feed_title" onClick="javascript:window.open('<?php echo $link; ?>', '_blank','toolbar=no,width=600,height=600');"><?php echo $title; ?></a></h2>
+         <img src="<?php echo $image ?>"><h2><a href="#" class="feed_title" onClick="javascript:window.open('<?php echo $link; ?>', '_blank','toolbar=no,width=800,height=600');"><?php echo $title; ?></a></h2>
        <span style="margin-left: 5px"><?php echo $pubDate; ?></span>
      </div>
      <div class="post-content">
-       <?php echo implode(' ', array_slice(explode(' ', $description), 0, 500)) . "..."; ?> <a href="#" onClick="javascript:window.open('<?php echo $link; ?>', '_blank','toolbar=no,width=600,height=600');">Read more</a>
+       <?php echo implode(' ', array_slice(explode(' ', $description), 0, 500)) . "..."; ?> <a href="#" onClick="javascript:window.open('<?php echo $link; ?>', '_blank','toolbar=no,width=800,height=600');">Read more</a>
      </div>
    </div>
 
