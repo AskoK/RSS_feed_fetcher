@@ -4,8 +4,6 @@
 <head>
     <title>RSS feed fetcher</title>
     <link rel="stylesheet" href="css/default.css" />
-    <script src="js/jquery-1.2.6.pack.js" type="text/javascript"></script>
-    <script src="js/myScript.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="content">
